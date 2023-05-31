@@ -6,7 +6,7 @@ const fastcsv = require('fast-csv');
 module.exports.SignIN = function(req, res){
     
         return res.render('Signin',{
-                title: "home"
+                title: "Signin"
                 // posts: posts
             })
     
