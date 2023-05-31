@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+body form{
+    display: flex;flex-direction: row;
+}
