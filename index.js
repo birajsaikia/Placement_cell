@@ -50,13 +50,14 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     //mongostore is used to store the session cookie in the db
-    store: Mongoosestore.create({             
-        mongoUrl: `mongodb://0.0.0.0:27017/placement`,
-        autoRemove: 'disabled'
-    },
-    function(err){
-        console.log(err || 'connect-mongodb setup ok');
-    })
+    // store: Mongoosestore.create({             
+    //     mongoUrl: `mongodb://0.0.0.0:27017/placement`,
+    //     autoRemove: 'disabled'
+//     // },
+//     function(err){
+//         console.log(err || 'connect-mongodb setup ok');
+//     })
+// }
 }))
 
 

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // mongoose.connect('mongodb://0.0.0.0:27017/placement');
-const DB = 'mongodb+srv://birajjyo2:Od7oLjIdJVSCu4ps@cluster0.kybvwzo.mongodb.net/mernstack?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://birajjyo2:uhnekDGnu6zglcFo@cluster0.kybvwzo.mongodb.net/';
 
 mongoose.connect(DB, {
 	useNewUrlParser: true,
